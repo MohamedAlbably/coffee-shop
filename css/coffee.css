@@ -223,8 +223,13 @@ body{ font-family: "Open Sans", sans-serif;color:#656565}
 
 .container .text i {font-size: 35px;position: relative;padding: 0 20px;color: var(--main-color);}
 
-.container .text p {font-size: 35px;padding-top: 10px;color: black;}
-
+.container .text p 
+{
+    font-size: 33px;
+    padding-top: 10px;
+    color: black;
+    line-height: 1.2;
+}
 .con1 {padding-top: var(--section-padding);padding-bottom: var(--section-padding);background-color: #f6f6f6;}
  
 .con1 .coffee 
