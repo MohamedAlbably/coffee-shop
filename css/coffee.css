@@ -212,6 +212,12 @@ body{ font-family: "Open Sans", sans-serif;color:#656565}
 
 .container .text h2 {text-align: center;font-size: 70px;color:#404040;}
 
+@media (max-width: 767px)
+{
+    .container .text h2 {font-size: 61px}
+}
+
+
 /*.container .text hr 
 {
     width: 50%;
@@ -225,7 +231,7 @@ body{ font-family: "Open Sans", sans-serif;color:#656565}
 
 .container .text p 
 {
-    font-size: 33px;
+    font-size: 35px;
     padding-top: 10px;
     color: black;
     line-height: 1.2;
